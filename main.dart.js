@@ -45500,8 +45500,8 @@ B.M_.prototype={
 $1:function(a){return P.o0(O.a3o(a.b.nm(0),a.a).h(0,"name"))},
 $S:298}
 B.M0.prototype={
-$2:function(a,b){if(b.c!=null)return L.Zw("Something went wrong",null)
-if(b.a===C.nB)return L.Zw("Loading",null)
+$2:function(a,b){if(b.a===C.nB)return L.Zw("Loading",null)
+else if(b.c!=null)return L.Zw("Something went wrong",null)
 return L.Zw(C.h.i(b.b.b.b.length),null)},
 $C:"$2",
 $R:2,

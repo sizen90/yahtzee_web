@@ -27716,8 +27716,9 @@ ov:function(a,b){var s=O.So(K.xu("[DEFAULT]"))
 O.S3(s,s.gwr().eC(0,"players")).C(0,P.ap(["name","bean"],t.X,t.z))
 return new B.hJ(new B.z1(),null,t.w1)}}
 B.z1.prototype={
-$2:function(a,b){if(b.a===C.nU)return L.Mf(b.b.CE(0).h(0,"name"))
-return L.Mf("loading")},
+$2:function(a,b){var s
+if(b.a===C.nU){s=b.b.CE(0)
+return L.Mf(s.gj(s).i(0))}return L.Mf("loading")},
 $S:182}
 E.zY.prototype={}
 A.GV.prototype={

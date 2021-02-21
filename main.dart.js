@@ -54618,7 +54618,7 @@ $1:function(a){return L.bH(O.aek(a.d.pO(0),a.c).h(0,"name"),null,null)},
 $S:353}
 B.Cm.prototype={
 E:function(a,b){var s=null
-return M.a8m(s,T.jr(H.b([new B.Dy(s),D.aeD(C.mR,L.lz(C.oj,s,s),L.bH("Play now",s,s),new B.SK(b),C.kg)],t.Y),C.a6,C.aX,C.a4),!1)}}
+return M.a8m(s,T.jr(H.b([D.aeD(C.mR,L.lz(C.oj,s,s),L.bH("Play now",s,s),new B.SK(b),C.kg),new B.Dy(s)],t.Y),C.a6,C.aX,C.a4),!1)}}
 B.SK.prototype={
 $0:function(){var s=O.Qq(K.nP("[DEFAULT]")),r=O.O9(s,s.gd9().hS(0,"players"))
 s=r.HQ(0,"status","ready")

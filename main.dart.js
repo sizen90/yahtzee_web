@@ -50427,14 +50427,14 @@ B.Aw.prototype={
 V:function(a,b){var s=O.MI(K.mx("[DEFAULT]"))
 return new B.tw(new B.Qo(),O.KA(s,s.gcK().hq(0,"players")).Fe(0,"status","in_lobby").Gs(),null,t.wM)}}
 B.Qo.prototype={
-$2:function(a,b){var s,r,q,p=null
-P.oV("changed")
-if(b.a===C.nY){s=J.a4G(b.b)
-r=H.ad(s).j("ai<1,ld*>")
-r=P.al(new H.ai(s,new B.Qn(),r),!0,r.j("aI.E"))
-s=P.af([null,0],t.st,t.S)
-q=r.length
-return new B.zi(new G.Un(!0,!0,!0,r,s),p,C.n,!1,p,!0,C.qW,!1,p,q,C.eJ,C.x_,p,C.aV,p)}return L.a2x("loading",p)},
+$2:function(a,b){var s,r,q=null,p=b.a
+P.oV("snapshot.connectionState:"+p.b)
+if(p===C.nY){p=J.a4G(b.b)
+s=H.ad(p).j("ai<1,ld*>")
+s=P.al(new H.ai(p,new B.Qn(),s),!0,s.j("aI.E"))
+p=P.af([null,0],t.st,t.S)
+r=s.length
+return new B.zi(new G.Un(!0,!0,!0,s,p),q,C.n,!1,q,!0,C.qW,!1,q,r,C.eJ,C.x_,q,C.aV,q)}return L.a2x("loading",q)},
 $C:"$2",
 $R:2,
 $S:337}

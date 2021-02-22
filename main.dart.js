@@ -65650,7 +65650,7 @@ $0:function(){B.aqq(this.a)},
 $S:3}
 B.Hu.prototype={
 E:function(a,b){var s=null,r=D.ahG(s,L.lc(C.ph,s,s),L.bx("Play with random player",s,s),new B.ZV(b),s),q=b.a2(t.w).f,p=K.mG(20),o=new Y.cZ(C.Be,2,C.Y),n=t.Y
-return M.ah7(s,new T.cm(new V.aH(0,20,0,20),T.fj(H.a([r,T.vW(M.bI(s,T.fj(H.a([L.bx("Friends",s,s),new B.IJ(s)],n),C.P,C.aj,C.V),C.k,s,s,new S.dR(s,s,new F.cY(o,o,o,o),p,s,s,C.a0),s,s,new V.aH(0,10,0,10),s,s,s,q.a.a*0.9),1)],n),C.P,C.aj,C.V),s),!1)}}
+return M.ah7(s,new T.cm(new V.aH(0,20,0,20),T.fj(H.a([r,M.bI(s,T.fj(H.a([L.bx("Friends",s,s),T.vW(new B.IJ(s),1)],n),C.P,C.aj,C.V),C.k,s,s,new S.dR(s,s,new F.cY(o,o,o,o),p,s,s,C.a0),s,s,new V.aH(0,10,0,10),s,s,s,q.a.a*0.9)],n),C.P,C.aj,C.V),s),!1)}}
 B.ZV.prototype={
 $0:function(){if($.aiC==="in_lobby"){$.aiC="ready"
 B.aqq(this.a)}},

@@ -65499,7 +65499,7 @@ if(q.f===0)return T.hr(H.a([L.bK("Round "+q.e+". ",A.f2(s,s,s,s,s,s,s,s,s,s,s,s,
 else if(q.gyS())return L.bK("Tap a dice to toggle hold.\nYou can keep rolling up to 3 times",s,C.cK)
 else return $.aiD?L.bK("Swipe up to score in and end turn",s,s):L.bK("Choose a score on the right to end turn",s,s)}}
 F.wp.prototype={
-F:function(a,b){return T.i3(H.a([this.a1_(b,Y.jV(b,!1,t.rm)),this.a0l(b)],t.Y),C.U,C.aN,C.a1)},
+F:function(a,b){return T.i3(H.a([this.a1_(b,Y.jV(b,!0,t.rm)),this.a0l(b)],t.Y),C.U,C.aN,C.a1)},
 a1_:function(a,b){var s=null,r=K.aH(a).Q,q=b.gBw(),p=this.c
 return M.bN(s,new V.zO(p==null?new F.XH():p,q,s),C.k,r,s,s,s,120,s,s,s,s,1/0)},
 a0l:function(a){var s=Y.jV(a,!0,t.rm)

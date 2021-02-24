@@ -65265,8 +65265,10 @@ r=r.h(0,50)
 r.toString
 return new S.xk(new B.HG(l),"Flutzy",X.anW(s,q,l,M.agp(!1,l,l,l,l,56,l,l,C.jr,l,240,l,l,l,C.cO),p,s,r,m,C.pZ,C.G3),l)}}
 S.XB.prototype={
-$1:function(a){var s=O.jo(K.fo("[DEFAULT]"))
-O.jc(s,s.gc6().ey(0,"players")).d6(0,$.kI().c).qJ(0,P.ai(["name",$.kI().d,"status","in_lobby"],t.X,t.z))},
+$1:function(a){var s,r=O.jo(K.fo("[DEFAULT]"))
+r=O.jc(r,r.gc6().ey(0,"players")).d6(0,$.kI().c)
+s=$.kI()
+r.qJ(0,P.ai(["name",s.d,"status","in_lobby","avatar",s.e],t.X,t.z))},
 $S:22}
 S.c8.prototype={
 j:function(a){return"["+this.a+"]"}}

@@ -46499,7 +46499,7 @@ if(J.W(b)!==H.K(s))return!1
 return b instanceof X.v8&&J.d(b.a,s.a)&&b.b==s.b&&J.d(b.c,s.c)&&b.d==s.d&&J.d(b.e,s.e)&&!0}}
 X.Mj.prototype={}
 Z.yi.prototype={
-gco:function(a){return!0},
+gco:function(a){return this.c!=null||!1},
 aB:function(){return new Z.Br(P.b1(t.ui),C.l)}}
 Z.Br.prototype={
 FE:function(a){if(this.d.C(0,C.b7)!==a)this.aX(new Z.abm(this,a))},
@@ -48296,7 +48296,7 @@ r=this.bb$
 if(r!=null)for(r=P.ce(r,r.r);r.p();)r.d.sdT(0,s)
 this.cA()}}
 B.xo.prototype={
-gco:function(a){return!0},
+gco:function(a){return this.c!=null||!1},
 F:function(a0,a1){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=this,d=K.aH(a1),c=M.agv(a1),b=c.vn(e),a=d.M.ch
 a.toString
 a=a.ei(c.lB(e))
@@ -65597,7 +65597,7 @@ return T.fY(H.a([L.bM("Your total score",r,r),L.bM(""+b.gMP(),s.a3f(C.b1),r),T.e
 WE:function(a,b){return new S.vI(b.b,new Z.XK(b),null)},
 VK:function(a,b){var s=null,r=L.qn(C.pj,s,s),q=b.f
 q=q!==0?L.bM("Roll again ("+(3-q)+" left)",s,s):L.bM("Roll now",s,s)
-return D.ai8(C.vW,r,q,new Z.XJ(b),C.w0)},
+return D.ai8(C.vW,r,q,b.gyT()&&$.hY().c==b.cx&&b.dx?new Z.XJ(b):s,C.w0)},
 a0W:function(a,b){var s,r,q=null
 if(!b.gyT()){s=H.a([],t.Y)
 for(r=0;r<3;++r)s.push(new L.np(C.zf,q,C.bE,q))
@@ -65609,9 +65609,9 @@ s.bi()},
 $S:423}
 Z.XJ.prototype={
 $0:function(){var s=this.a
-if(s.gyT()&&$.hY().c==s.cx&&s.dx){s.b.a80();++s.f
+s.b.a80();++s.f
 s.bi()
-$.ajw().q8(0,"dice-throw.wav")}},
+$.ajw().q8(0,"dice-throw.wav")},
 $S:3}
 Z.GD.prototype={
 F:function(a,b){return new T.em(new S.aw(0,1/0,48,1/0),G.akV(this.XK(b),C.cf),null)},

@@ -65923,7 +65923,7 @@ q=O.kq(q.gbR().fC(0),q.ghw()).h(0,"name")
 p=C.b.gD(a.gkV(a))
 p=P.aj(["id",s,"name",q,"avatar",O.kq(p.gbR().fC(0),p.ghw()).h(0,"avatar")],n,m)
 q=$.j3()
-r.qK(0,P.aj(["player1",p,"player2",P.aj(["id",q.c,"name",q.d,"avatar",q.e],n,n)],n,m))
+r.qK(0,P.aj(["player1",p,"player2",P.aj(["id",q.c,"name",q.d,"avatar",q.e],n,n),"turn","player1"],n,m))
 $.Su=s
 l.d6(0,$.j3().c).a.X(0,O.oG(P.aj(["status","playing","game_id",s],n,m)))
 l.d6(0,s).a.X(0,O.oG(P.aj(["status","playing","game_id",s],n,m)))

@@ -65764,15 +65764,17 @@ for(s=$.ajA(),r=0;r<6;++r)C.b.I(p,H.a([this.Hf(a,s[r]),new Z.q0(1,null)],q))
 p.push(new U.Kc(this.d.r,63,null))
 p.push(Z.axQ(1))
 return T.fZ(p,C.M,C.aj,C.W)},
-Hf:function(a,b){var s,r,q,p=null,o=this.d,n=o.f
-P.fQ("player.moveList.length:"+C.f.j(o.a.length))
-s=C.b.iM(o.a,new X.a3y(b),new X.a3z())
-r=s==null
-q=r?p:s.b
-if(q!=null&&b==$.D3())q+=o.y*100
-if(n>0){o=o.b.c
-o=b.a.$1(o)}else o=p
-return new T.K2(this.c!=null?new X.a3A(this,b):p,b,r,q,o,p)}}
+Hf:function(a,b){var s,r,q,p,o,n=null
+P.fQ("_scoreTile")
+s=this.d
+r=s.f
+q=C.b.iM(s.a,new X.a3y(b),new X.a3z())
+p=q==null
+o=p?n:q.b
+if(o!=null&&b==$.D3())o+=s.y*100
+if(r>0){s=s.b.c
+s=b.a.$1(s)}else s=n
+return new T.K2(this.c!=null?new X.a3A(this,b):n,b,p,o,s,n)}}
 X.a3y.prototype={
 $1:function(a){return a.a==this.a},
 $S:428}

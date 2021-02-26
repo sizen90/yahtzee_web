@@ -65365,15 +65365,15 @@ P.e2("toggleHold")
 P.e2(a)
 s=this.b.d
 s[a]=!s[a]},
-Jc:function(a){var s,r,q,p,o,n,m,l=this
-for(s=a.length,r=l.b,q=0;q<a.length;a.length===s||(0,H.D)(a),++q){p=a[q]
-if(l.ga5P()){o=l.y
-if(!o&&p.a==$.CX())l.y=!0
-else if(o)++l.x}o=p.a
-n=r.c
-m=o.a.$1(n)
-if(C.b.C($.ajr(),o))l.f=l.f+m
-else l.r=l.r+m}},
+Jc:function(a){var s,r,q,p,o,n,m=this,l=m.x=m.f=m.r=0
+for(s=a.length,r=m.b;l<a.length;a.length===s||(0,H.D)(a),++l){q=a[l]
+if(m.ga5P()){p=m.y
+if(!p&&q.a==$.CX())m.y=!0
+else if(p)++m.x}p=q.a
+o=r.c
+n=p.a.$1(o)
+if(C.b.C($.ajr(),p))m.f=m.f+n
+else m.r=m.r+n}},
 vr:function(a){var s,r,q=this
 P.e2("scoreIn")
 s=q.b.c

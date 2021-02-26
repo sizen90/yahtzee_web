@@ -10190,7 +10190,7 @@ _.db=m
 _.dx=n
 _.a=o},
 aGt:function(a){var s=O.eR(K.dW("[DEFAULT]")),r=O.eL(s,s.gbo().dq(0,"players"))
-s=r.N9(0,"status","ready").a8Q(0,"time",Date.now()-3000)
+s=r.N9(0,"status","ready")
 O.an8(s.a,s.b.un(0,1)).fT(0).aI(0,new B.af8(r,a),t.P)},
 aGs:function(a,b){var s,r,q,p,o,n="[DEFAULT]",m="id",l=O.eR(K.dW(n)),k=O.eL(l,l.gbo().dq(0,"players"))
 l=O.eR(K.dW(n))
@@ -65867,7 +65867,7 @@ $0:function(){},
 $S:3}
 B.IS.prototype={
 F:function(a,b){var s=O.eR(K.dW("[DEFAULT]"))
-return new B.zq(new B.a15(),O.eL(s,s.gbo().dq(0,"players")).N9(0,"status","in_lobby").qM(),null,t.Zr)}}
+return new B.zq(new B.a15(),O.eL(s,s.gbo().dq(0,"players")).N9(0,"status","in_lobby").a8Q(0,"time",Date.now()-6e4).qM(),null,t.Zr)}}
 B.a15.prototype={
 $2:function(a,b){var s,r,q,p=null
 if(b.a===C.mr){s=J.aka(b.b)

@@ -65593,10 +65593,10 @@ if($.aiL)r.push(this.a0U(b,s))
 return T.iN(C.ca,r,C.be)},
 a_S:function(a,b){var s,r=null,q=t.Y
 if(b.d<=13)return new T.ca(new V.aH(0,32,0,32),T.h0(H.a([new Z.Gw(b,r),this.WD(a,b),this.VK(a,b)],q),C.M,C.kQ,C.W),r)
-else{P.e2("_endingScreen")
-s=K.aG(a).M.e
+else{s=K.aG(a).M.e
 return T.h0(H.a([L.bM("Your total score",r,r),L.bM(""+b.gMS(),s.a3d(C.b1),r),T.ew(r,16,r),L.bM("Number of Flutzies",r,r),L.bM(""+b.x,s,r),T.ew(r,16,r),L.bM("High score",r,r),L.bM("420",s,r)],q),C.M,C.aj,C.h8)}},
-WD:function(a,b){return new S.vF(b.b,new Z.XD(b),null)},
+WD:function(a,b){P.e2("_diceDisplay")
+return new S.vF(b.b,new Z.XD(b),null)},
 VK:function(a,b){var s=null,r=L.qk(C.pj,s,s),q=b.e
 q=q!==0?L.bM("Roll again ("+(3-q)+" left)",s,s):L.bM("Roll now",s,s)
 return D.ai_(C.vW,r,q,b.gyR()&&$.dO().c==b.ch&&b.db?new Z.XC(b):s,C.w0)},

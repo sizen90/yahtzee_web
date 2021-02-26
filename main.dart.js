@@ -65434,7 +65434,8 @@ for(h=J.ak(s);h.p();){q=h.gv(h)
 p=J.ad(q)
 o=p.h(q,"type")
 r.push(new X.jL($.ajp().h(0,o),p.h(q,"score")))}i.a=r
-i.Jc(r)}n=O.f8(a.gbr().ei(0),a.gfn()).h(0,J.i0(i.gfC(),"_dice_pool"))
+i.Jc(r)
+i.e=0}n=O.f8(a.gbr().ei(0),a.gfn()).h(0,J.i0(i.gfC(),"_dice_pool"))
 if(n!=null)i.Da(n)
 if(O.f8(a.gbr().ei(0),a.gfn()).h(0,J.i0(i.gfC(),j))!=null)for(h=t.X,p=t.z,m=0;m<5;++m){o=a.gbr().d
 l=J.ad(o)

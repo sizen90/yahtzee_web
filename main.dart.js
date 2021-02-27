@@ -10409,17 +10409,17 @@ r=O.eR(s,s.gbp().dC(0,"players"))
 s=O.eX(K.dZ(l))
 s=O.eR(s,s.gbp().dC(0,"games")).cz(0,b.h(0,m))
 q=t.X
-p=P.ac(["id",b.h(0,m),"name",b.h(0,"name"),"avatar",b.h(0,"avatar")],q,q)
-o=$.dh()
-n=t.z
-s.nT(0,P.ac(["player1",p,"player2",P.ac(["id",o.c,"name",o.d,"avatar",o.e],q,q),"turn","player1"],q,n))
+p=t.z
+o=P.ac(["id",b.h(0,m),"name",b.h(0,"name"),"avatar",b.h(0,"avatar")],q,p)
+n=$.dh()
+s.nT(0,P.ac(["player1",o,"player2",P.ac(["id",n.c,"name",n.d,"avatar",n.e],q,q),"turn","player1"],q,p))
 $.pl=b.h(0,m)
 $.Dq="playing"
 B.ahr()
-r.cz(0,$.dh().c).a.U(0,O.i0(P.ac(["game_id",b.h(0,m)],q,n)))
-r.cz(0,b.h(0,m)).a.U(0,O.i0(P.ac(["status","playing","game_id",b.h(0,m)],q,n)))
-n=V.a0U(new B.ah7(),null,n)
-K.iN(a,!1).lE(n)},
+r.cz(0,$.dh().c).a.U(0,O.i0(P.ac(["game_id",b.h(0,m)],q,p)))
+r.cz(0,b.h(0,m)).a.U(0,O.i0(P.ac(["status","playing","game_id",b.h(0,m)],q,p)))
+p=V.a0U(new B.ah7(),null,p)
+K.iN(a,!1).lE(p)},
 ahr:function(){P.eq($.avy().b!=null)
 var s=O.eX(K.dZ("[DEFAULT]"))
 O.eR(s,s.gbp().dC(0,"players")).cz(0,$.dh().c).a.U(0,O.i0(P.ac(["status",$.Dq,"time",Date.now()],t.X,t.z)))},

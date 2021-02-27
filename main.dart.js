@@ -66327,6 +66327,7 @@ l=J.a6(o)
 o=l.h(o,"data")!=null?P.dm(l.h(o,"data"),h,p):null
 if(J.aj(O.fg(o,a.gfE()).h(0,J.h3(i.gfQ(),j)),m))i.E1(m)}i.bl()}k=J.d(O.fg(a.gbt().ev(0),a.gfE()).h(0,"turn"),i.gfQ())
 if(i.db!==k){i.db=k
+i.e=0
 i.bl()}},
 $S:65}
 Q.o3.prototype={

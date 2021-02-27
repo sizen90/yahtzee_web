@@ -66306,24 +66306,26 @@ s.bl()
 s.a7B()},
 $S:65}
 Q.a2N.prototype={
-$1:function(a){var s,r,q,p,o,n,m,l,k,j,i="_dice_hold",h=this.a,g=h.ch
-if(g!=null&&h.db&&$.dI().c!==g){P.eL("listen")
-s=O.fg(a.gbt().ev(0),a.gfE()).h(0,J.h3(h.gfQ(),"_score_list"))
-if(s!=null&&J.bA(s)!==h.a.length){r=H.a([],t.wB)
-for(g=J.al(s);g.n();){q=g.gv(g)
+$1:function(a){var s,r,q,p,o,n,m,l,k,j,i,h="_dice_hold",g=this.a,f=g.ch
+if(f!=null&&g.db&&$.dI().c!==f){P.eL("listen")
+s=O.fg(a.gbt().ev(0),a.gfE()).h(0,J.h3(g.gfQ(),"_score_list"))
+if(s!=null&&J.bA(s)!==g.a.length){r=H.a([],t.wB)
+for(f=J.al(s);f.n();){q=f.gv(f)
 p=J.a6(q)
 o=p.h(q,"type")
-r.push(new X.k_($.alF().h(0,o),p.h(q,"score")))}h.a=r
-h.K6(r)
-h.e=0}n=O.fg(a.gbt().ev(0),a.gfE()).h(0,J.h3(h.gfQ(),"_dice_pool"))
-if(n!=null)h.E0(n)
-if(O.fg(a.gbt().ev(0),a.gfE()).h(0,J.h3(h.gfQ(),i))!=null)for(g=h.b,p=t.X,o=t.z,m=0;m<5;++m){l=a.gbt().d
+r.push(new X.k_($.alF().h(0,o),p.h(q,"score")))}g.a=r
+g.K6(r)
+g.e=0}if(O.fg(a.gbt().ev(0),a.gfE()).h(0,J.h3(g.gfQ(),h))!=null)for(f=g.b,p=t.X,o=t.z,n=!1,m=0;m<5;++m){l=a.gbt().d
 k=J.a6(l)
 l=k.h(l,"data")!=null?P.dm(k.h(l,"data"),p,o):null
-if(!J.d(J.aj(O.fg(l,a.gfE()).h(0,J.h3(h.gfQ(),i)),m),g.d[m]))h.E1(m)}h.bl()}j=J.d(O.fg(a.gbt().ev(0),a.gfE()).h(0,"turn"),h.gfQ())
-if(h.db!==j){h.db=j
-h.e=0
-h.bl()}},
+if(!J.d(J.aj(O.fg(l,a.gfE()).h(0,J.h3(g.gfQ(),h)),m),f.d[m])){g.E1(m)
+n=!0}}else n=!1
+j=O.fg(a.gbt().ev(0),a.gfE()).h(0,J.h3(g.gfQ(),"_dice_pool"))
+if(j!=null&&!n)g.E0(j)
+g.bl()}i=J.d(O.fg(a.gbt().ev(0),a.gfE()).h(0,"turn"),g.gfQ())
+if(g.db!==i){g.db=i
+g.e=0
+g.bl()}},
 $S:65}
 Q.o3.prototype={
 gfQ:function(){return"player1"}}

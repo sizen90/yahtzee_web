@@ -66274,16 +66274,17 @@ r=H.ag(s).i("ak<1,l*>")
 q=P.as(new H.ak(s,new Q.a2P(),r),!0,r.i("aU.E"))
 r=O.eX(K.dZ("[DEFAULT]"))
 O.eR(r,r.gbp().dC(0,"games")).cz(0,$.pl).a.U(0,O.i0(P.ac([J.eL(p.geL(),"_dice_pool"),q],t.X,t.z)))}},
-w1:function(a){var s,r,q,p,o=this
-if(o.db&&$.dh().c==o.ch){o.QW(a)
-o.K7(o.a)
-o.bn()
-s=o.geL()==="player1"?"player2":"player1"
-r=o.a
+w1:function(a){var s,r,q,p,o,n=this
+if(n.db&&$.dh().c==n.ch){n.QW(a)
+n.K7(n.a)
+n.bn()
+s=n.geL()==="player1"?"player2":"player1"
+r=n.a
 q=H.ag(r).i("ak<1,af<n*,x*>*>")
 p=P.as(new H.ak(r,new Q.a2Q(),q),!0,q.i("aU.E"))
+o=H.a([!1,!1,!1,!1,!1],t.jf)
 q=O.eX(K.dZ("[DEFAULT]"))
-O.eR(q,q.gbp().dC(0,"games")).cz(0,$.pl).a.U(0,O.i0(P.ac([J.eL(o.geL(),"_score_list"),p,"turn",s,J.eL(o.geL(),"_dice_hold"),H.a([!1,!1,!1,!1,!1],t.jf)],t.X,t.z)))}},
+O.eR(q,q.gbp().dC(0,"games")).cz(0,$.pl).a.U(0,O.i0(P.ac([J.eL(n.geL(),"_score_list"),p,"turn",s,J.eL(n.geL(),"_dice_hold"),o],t.X,t.z)))}},
 CR:function(){var s=O.eX(K.dZ("[DEFAULT]"))
 O.eR(s,s.gbp().dC(0,"games")).cz(0,$.pl).h6(0).aE(0,new Q.a2N(this),t.P)},
 a7B:function(){var s=O.eX(K.dZ("[DEFAULT]"))
